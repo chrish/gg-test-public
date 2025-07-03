@@ -24,7 +24,7 @@ public class GitGuardianTest {
     private static final String API_KEY     = "ak_live_java_f00dbabe42";
 
     // Slack
-    private static final String SLACK_BOT_TOKEN = "xoxb-556677889900-112233445566-OpQrStUvWxYzABcDEfGhIJ";
+    private static final String SLACK_BOT_TOKEN = "xoxb-483920313216-2384930123448-G5i4r8h6KleN8c2hB7eQf6D9";
 
     // RSA Private Key (dummy but correct format)
     private static final String PRIVATE_KEY_PEM = """
