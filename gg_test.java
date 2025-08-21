@@ -28,15 +28,14 @@ public class GitGuardianTest {
 
     // RSA Private Key (dummy but correct format)
     private static final String PRIVATE_KEY_PEM = """
------BEGIN RSA PRIVATE KEY-----
-MIIEpQIBAAKCAQEAvAC3Frbg9FrbX2kXh3W/Sjm8HTuKzj5mMUbZpcx9ZCoWObiy
-qnBQOsk3lqE9HeD98qmcUNHvb+6ccDRtejzm8vFjKKeKfX8EIfvQ5u6IzHaSyPH/
-4Rr2kkjwSMQ1xxlp+0eKTIFkMdMu5VaHKJTX87dZ4UuIcbXMDvKkCSvd3LHZ/1xx
-W6+2FWoaJp7tzDyog+E9/byCGRjFyt7fk+hR9yjs3IACn+uCM1JBodOZAAtjdpnB
-yz/dm+R6u8YhVqAZ81/5CD31Ooff0xsO+/Hyxv1/5eW0Cu0+3eiMiZvGmZ7+QXwK
-PWPR4d+N2/jlOexYWbWHD7ex2MaiJz+U6wIDAQABAoIBAQC4N8bl2EQRkxkXszyo
-...
------END RSA PRIVATE KEY-----""";
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACB+fLpNProR+ofiEQZbgvX3YQJ0QF0x4pZMY0yf78+r+AAAAKjAGti+wBrY
+vgAAAAtzc2gtZWQyNTUxOQAAACB+fLpNProR+ofiEQZbgvX3YQJ0QF0x4pZMY0yf78+r+A
+AAAEAlx8iecMPD93ZN0oVlMzCDLKeBh5RjGHCQ3fKB4z4FoH58uk0+uhH6h+IRBluC9fdh
+AnRAXTHilkxjTJ/vz6v4AAAAIGNocmlzdG9mZmVyLmhhZnNhaGxATS1YWDU3UUdDSFhLAQ
+IDBAU=
+-----END OPENSSH PRIVATE KEY-----""";
 
     public static Connection connectDatabase() throws SQLException {
         String url = "jdbc:mysql://" + DB_HOST + "/" + DB_NAME;
