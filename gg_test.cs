@@ -30,7 +30,7 @@ namespace GitGuardianDemo
         // ───────────────────────────────
         // Slack Bot Token
         // ───────────────────────────────
-        private const string SlackBotToken = "xoxb-872364987234-297846912739-DFgHjkLmNoPqRSTUvWXyZA";
+        private const string SlackBotToken = "xoxb-872264987234-297846912739-DFgHjkLmNoPqRSTUvWXyZA";
 
         // ───────────────────────────────
         // RSA Private Key (PEM)
