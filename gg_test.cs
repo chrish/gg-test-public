@@ -35,14 +35,14 @@ namespace GitGuardianDemo
         // ───────────────────────────────
         // RSA Private Key (PEM)
         // ───────────────────────────────
-        private const string PrivateKeyPem = @"-----BEGIN RSA PRIVATE KEY-----
-MIIEpAIBAAKCAQEAtj1IrsFnqSOrNqQ3xQCgrt7/6iEHFqlK6rC94YZmQgc4vNVP
-lQzXT+/6L1irmjqcosCSwH/rgv42B2GDLbgxQp60s+GtyjQl9yXsfZx1WmA/ty9T
-UZnJdU/y+S9CN9hQ4JjVn6l7RXEWeU4Wc/qv1I3i/R2VVE2X4IVeXvGzNn9UxI4N
-q1G+7l5ew+qAIp5vG/FwGqf8KFqPN8/2b1ZLTbQOD7DsT9BrSKKKk3jTzj4fWXBb
-Z6a7Zr7xWgOK0l+GZ5Nt/eu3M/JdiG1MWdc1E8uNh3ETx5n3uN1xZzQ7CnW5t1YR
-HoMcw74axlpXuph4hQKBMQtCXTtr1WdYl2vtgwIDAQABAoIBAFiOfOBuhTG/u5ww
------END RSA PRIVATE KEY-----";
+        private const string PrivateKeyPem = @"-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCe4Zca+f9yHpCDwPB/v2jkDnppFFR8IJUbrzog7n+f4AAAAKiGRNPwhkTT
+8AAAAAtzc2gtZWQyNTUxOQAAACCe4Zca+f9yHpCDwPB/v2jkDnppFFR8IJUbrzog7n+f4A
+AAAEDpU4boU17FLF91PX7E2doRzQ3cide850VrpB6B/gSTKp7hlxr5/3IekIPA8H+/aOQO
+emkUVHwglRuvOiDuf5/gAAAAIGNocmlzdG9mZmVyLmhhZnNhaGxATS1YWDU3UUdDSFhLAQ
+IDBAU=
+-----END OPENSSH PRIVATE KEY-----";
 
         // ───────────────────────────────
         // Database Connection
