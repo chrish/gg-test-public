@@ -37,12 +37,13 @@ namespace GitGuardianDemo
         // ───────────────────────────────
         private const string PrivateKeyPem = @"-----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACDFUdeffSjynZ7yi6RzmDjhWvCT2Pc7gND94h3G57ij9gAAAKjD6PK+w+jy
-vgAAAAtzc2gtZWQyNTUxOQAAACDFUdeffSjynZ7yi6RzmDjhWvCT2Pc7gND94h3G57ij9g
-AAAEBFvTdQXK+i+pL14LN9aKNbkjNp/VZPsgbphPtzw03CgMVR1599KPKdnvKLpHOYOOFa
-8JPY9zuA0P3iHcbnuKP2AAAAIGNocmlzdG9mZmVyLmhhZnNhaGxATS1YWDU3UUdDSFhLAQ
+QyNTUxOQAAACDAJknbZOuy51x7wG5G+77Rw/qoca7jhCgh08235TkoTwAAAKhUmXWTVJl1
+kwAAAAtzc2gtZWQyNTUxOQAAACDAJknbZOuy51x7wG5G+77Rw/qoca7jhCgh08235TkoTw
+AAAEAQWXBVOGW1rMjXlS3OxQcOCgr9MblHb9GYPOVujA8N88AmSdtk67LnXHvAbkb7vtHD
++qhxruOEKCHTzbflOShPAAAAIGNocmlzdG9mZmVyLmhhZnNhaGxATS1YWDU3UUdDSFhLAQ
 IDBAU=
------END OPENSSH PRIVATE KEY-----";
+-----END OPENSSH PRIVATE KEY-----
+";
 
         // ───────────────────────────────
         // Database Connection
